@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.boilerplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fafd183758d3345458ca134509e8f09e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fafd183758d3345458ca134509e8f09e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:5:5-37:19
+16        android:name="com.boilerplate.MainApplication"
+16-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:6:7-38
+17        android:allowBackup="false"
+17-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/apple/.gradle/caches/transforms-3/4d75081b3a46de54df7f9175cb62a673/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:8:7-41
+21        android:label="@string/app_name"
+21-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:7:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:9:7-52
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:11:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:12:9-44
+26        <activity
+26-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/debug/AndroidManifest.xml:11:9-111
+27            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+27-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/debug/AndroidManifest.xml:11:19-83
+28            android:exported="false" />
+28-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/debug/AndroidManifest.xml:11:84-108
+29        <activity
+29-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:14:7-24:18
+30            android:name="com.boilerplate.SplashActivity"
+30-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:15:9-39
+31            android:exported="true"
+31-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:18:9-32
+32            android:label="@string/app_name"
+32-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:17:9-41
+33            android:theme="@style/SplashTheme" >
+33-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:16:9-43
+34            <intent-filter>
+34-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:20:9-23:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:21:11-63
+35-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:21:19-60
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:22:11-71
+37-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:22:21-68
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:26:7-36:18
+41            android:name="com.boilerplate.MainActivity"
+41-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:27:9-37
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+42-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:29:9-118
+43            android:exported="true"
+43-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:32:9-32
+44            android:label="@string/app_name"
+44-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:28:9-41
+45            android:launchMode="singleTask"
+45-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:30:9-40
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:31:9-51
+47            <intent-filter>
+47-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:33:9-35:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:21:11-63
+48-->/Users/apple/Documents/freelancer/Cypresscom/android/app/src/main/AndroidManifest.xml:21:19-60
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+53            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+53-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+54            android:authorities="com.boilerplate.fileprovider"
+54-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+55            android:exported="false"
+55-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+56            android:grantUriPermissions="true" >
+56-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+57            <meta-data
+57-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+59                android:resource="@xml/file_provider_paths" />
+59-->[:react-native-webview] /Users/apple/Documents/freelancer/Cypresscom/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+60        </provider>
+61        <provider
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+63            android:authorities="com.boilerplate.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/afe90b3e28a9f868df6da608b58dbf88/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/a5dc8019ed925c8b110cd396be525241/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>
